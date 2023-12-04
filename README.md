@@ -4,8 +4,8 @@
 
 - Day 01 **
 - Day 02 **
-- Day 03
-- Day 04
+- Day 03 **
+- Day 04 **
 - Day 05
 
 ## Note to self on this years goal
@@ -29,12 +29,19 @@ Reduce number of files / deps from the inital setup.
 
 ## Day 03
 
+Works fine, but a quick and not very elegant solution / implementation.
 
+## Day 04
+
+No comment
 
 # Notes
 cargo run --bin day1 
 cargo run --bin day1 -- -1
 cargo run --bin day1 -- -2
 
-
+cargo clippy
+cargo check
+cargo test lib
+cargo test --lib --package day-01 test_process_p1
 

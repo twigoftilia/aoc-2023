@@ -46,6 +46,11 @@ fn test_inclusive_range(str: &str, min: &i32, max: &i32) -> bool {
     false
 }
 
+pub fn intersects(x1: usize, x2: usize, y1: usize, y2: usize) -> bool {
+    x1 <= y2 && y1 <= x2
+}
+
+
 #[derive(Debug)]
 pub enum Direction {
     North,
